@@ -1,0 +1,55 @@
+body{
+    background-color:lightslategray;
+}
+form{
+
+    background-color: lightsalmon;
+    font-size: x-large;
+    font-family:cursive;
+    margin: 5%;
+}
+header{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    background-color: hsl(16, 92%, 53%);
+    color:darkblue;
+    font-family: sans-serif;
+    margin: 10px;
+    padding: .5%;
+}
+div{
+    background-color:lightskyblue;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1%;
+    padding:1%;
+}
+label{
+    text-align:right;
+    width: 30%;
+}
+input,button{
+    flex:auto;
+    background-color:lightgreen;
+    padding: 1%;
+    text-align: center;
+    font-size: large;
+}
+error-output{
+    font-size:large;
+    font-family: inherit;
+    color: red;
+}
+@media only screen and (max-width:360px){
+    h1{
+        font-size:40px;
+        text-align: center;
+    }
+    label{
+        width:40%;
+        font-size:14px;
+    }
+}
